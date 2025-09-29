@@ -3,6 +3,7 @@
 <head>
   <title>Plant Picking HTML Page</title>
   <h1>Pick a plant by Elijah Booher</h1>
+  <hr>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -16,7 +17,6 @@
 
   </head>
 <body>
-
   <div class="containter-fluid">
     <div class="row">
       <div class="col-sm-2">B</div>
@@ -36,7 +36,7 @@
       <div class="col-md">Russelia</div>
     </div>
     <br>
-    <div>
+    <div id="txt">
       The second row breaks first, 
       forcing all the plant names to 
       line up vertically.<br>
@@ -45,16 +45,71 @@
     </div>
   </div>
   <br>
-  <div class="containter-fluid">
+  <div class="containter-fluid" id="pics">
     <img src="images/hebe.jpg" class="img-fluid">
     <img src="images/elsholtzia.jpg" class="img-fluid">
     <img src="images/russelia.jpg" class="img-fluid">
   </div>
   <br>
-  <div class="container-fluid">
+  <div class="container-fluid" id="pics2">
     <img src="images/hebe.jpg" class="img-thumbnail">
     <img src="images/elsholtzia.jpg" class="img-thumbnail">
     <img src="images/russelia.jpg" class="img-thumbnail">
   </div>
+  <br>
+  <div id="table-div" class="container-fluid col-sm-5">
+    <table class="table table-striped table-bordered table-hover caption-top">
+      <caption>
+        Flowers, Cities, and Lakes of Letters
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Letter</th>
+          <th scope="col">Plant</th>
+          <th scope="col">City</th>
+          <th scope="col">Lake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>B</td>
+          <td>Basswood</td>
+          <td>Boston</td>
+          <td>Bear</td>
+        </tr>
+        <tr>
+          <td>O</td>
+          <td>Orange</td>
+          <td>Omaha</td>
+          <td>Okutama</td>
+        </tr>
+        <tr>
+          <td>O</td>
+          <td>Osmanthus</td>
+          <td>Orlando</td>
+          <td>Opinaca</td>
+        </tr>
+        <tr>
+          <td>H</td>
+          <td>Hebe</td>
+          <td>Houston</td>
+          <td>Hulun</td>
+        </tr>
+        <tr>
+          <td>E</td>
+          <td>Elsholtzia</td>
+          <td>El Paso</td>
+          <td>Erie</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td>Russelia</td>
+          <td>Raleigh</td>
+          <td>Ronge</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
 </body>
 </html>
