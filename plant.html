@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <link href="plant.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
@@ -17,33 +18,43 @@
 <body>
 
   <div class="containter-fluid">
-    <h1></h1>
-  </div>
+    <div class="row">
+      <div class="col-sm-2">B</div>
+      <div class="col-sm-2">O</div>
+      <div class="col-sm-2">O</div>
+      <div class="col-sm-2">H</div>
+      <div class="col-sm-2">E</div>
+      <div class="col-sm-2">R</div>
+    </div>
 
-  <div class="row">
-    <div class="col-sm-2">B</div>
-    <div class="col-sm-2">O</div>
-    <div class="col-sm-2">O</div>
-    <div class="col-sm-2">H</div>
-    <div class="col-sm-2">E</div>
-    <div class="col-sm-2">R</div>
-  </div>
-
-  <div class="row">
-    <div class="col-md">Basswood</div>
-    <div class="col-md">Orange</div>
-    <div class="col-md">Osmanthus</div>
-    <div class="col-md">Hebe</div>
-    <div class="col-md">Elsholtzia</div>
-    <div class="col-md">Russelia</div>
-  </div>
+    <div class="row">
+      <div class="col-md">Basswood</div>
+      <div class="col-md">Orange</div>
+      <div class="col-md">Osmanthus</div>
+      <div class="col-md">Hebe</div>
+      <div class="col-md">Elsholtzia</div>
+      <div class="col-md">Russelia</div>
+    </div>
     <br>
-  <div>
-    The second row breaks first, 
-    forcing all the plant names to 
-    line up vertically.<br>
-    The reason this happens is because the divs of class 'col-md' have a larger column width.<br>
-    So when the page size is reduced, the columns collapse first because of limited space.<br>
+    <div>
+      The second row breaks first, 
+      forcing all the plant names to 
+      line up vertically.<br>
+      The reason this happens is because the divs of class 'col-md' have a larger column width.<br>
+      So when the page size is reduced, the columns collapse first because of limited space.<br>
+    </div>
+  </div>
+  <br>
+  <div class="containter-fluid">
+    <img src="images/hebe.jpg" class="img-fluid">
+    <img src="images/elsholtzia.jpg" class="img-fluid">
+    <img src="images/russelia.jpg" class="img-fluid">
+  </div>
+  <br>
+  <div class="container-fluid">
+    <img src="images/hebe.jpg" class="img-thumbnail">
+    <img src="images/elsholtzia.jpg" class="img-thumbnail">
+    <img src="images/russelia.jpg" class="img-thumbnail">
   </div>
 </body>
 </html>
