@@ -149,17 +149,26 @@
     </ul>
   </div>
   <br>
+  <hr>
   <form>
     <div class="form-group" role="group">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@email.com">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
+    <br>
     <div class="form-group" role="group">
       <label class="form-label">Plant</label>
-      <input class="form-control">
+      <input class="form-control" type="text" placeholder="Enter your plant" id="exampleInputPlant1">
     </div>
-    <div class="form-check"></div>
+    <br>
+    <div class="form-check">
+      <label class="form-check-label">Sign up for newsletter?</label>
+      <input class="form-check-input" type="checkbox">
+    </div>
+    <br>
+    <button class="btn btn-primary" type="submit">Submit</button>
   </form>
+  <br>
 </body>
 </html>
