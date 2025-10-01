@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     position: relative;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #txt {
@@ -17,5 +17,17 @@
 }
 
 .btn-toolbar {
-    margin-left: 30px
+    margin-left: 20px
+}
+
+#btn-group-div {
+    margin-left: 20px
+}
+
+#email-form {
+    margin-left: 20px
+}
+
+#card-row {
+    margin-left: 20px
 }
